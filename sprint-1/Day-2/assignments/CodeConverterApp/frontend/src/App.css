@@ -1,0 +1,130 @@
+.container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; */
+  background-color:rgb(169, 169, 251);
+}
+
+.buttons{
+  text-align:center;
+ 
+  
+}
+.buttons>button{
+  border:none;
+  width:100px;
+  height:100px;
+  border-radius:50px;
+  font-size:20px;
+  cursor:pointer;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* width: 500px; */
+  max-width: 100%;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+
+.select-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.select-group select {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* .button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.button-group button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+} */
+
+.output {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  font-family: monospace;
+  white-space: pre-wrap;
+  width:30%;
+  height:80%;
+}
+
+#input-container{
+  border:0px solid black;
+  display:flex;
+  justify-content:space-around;
+  height:400px;
+  align-items:center
+}
+
+#sourceCode {
+ width: 80%;
+  /* min-height: 150px; */
+  border-radius:10px;
+  border: 1px solid #ccc;  
+  /* resize: vertical; */
+  font-family: monospace;
+  height:355px;
+  background-color:rgb(199, 255, 199);
+  color:rgb(254, 120, 120);
+  font-size:20px;
+  
+}
+.select{
+  border:0px solid black;
+  text-align:center;
+  margin-top:20px;
+}
+#targetLanguage{
+  width:190px;
+  font-size:20px;
+}
